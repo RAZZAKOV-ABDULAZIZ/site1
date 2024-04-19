@@ -1,0 +1,18 @@
+.container {
+    max-width: 1110px;
+    margin: auto;
+    // border: 2px solid palegreen;x
+}
+@mixin flex-center-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-center-between-column {
+    @include flex-center-between;
+    flex-direction: column;
+}
+button {
+    border: none;
+    outline: none;
+}
